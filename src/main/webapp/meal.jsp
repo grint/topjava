@@ -32,7 +32,7 @@
     <form method="post" action="meals">
         <input type="hidden" name="id" value="${meal.id}">
         <dl>
-            <dt>DateTime:</dt>
+            <dt>Date & Time:</dt>
             <dd><input type="datetime-local" value="${meal.dateTime}" name="dateTime"></dd>
         </dl>
         <dl>
