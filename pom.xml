@@ -24,7 +24,8 @@
 
         <!--DB-->
         <postgresql.version>42.0.0</postgresql.version>
-        <!--    Tests  -->
+
+        <!-- Tests -->
         <junit.version>4.12</junit.version>
     </properties>
 

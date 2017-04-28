@@ -5,14 +5,25 @@ import ru.javawebinar.topjava.model.Meal;
 import ru.javawebinar.topjava.repository.MealRepository;
 
 import java.time.LocalDateTime;
+import java.util.Collection;
 import java.util.List;
 
 @Repository
 public class JdbcMealRepositoryImpl implements MealRepository {
 
     @Override
+    public Meal save(Meal Meal) {
+        return null;
+    }
+
+    @Override
     public Meal save(Meal meal, int userId) {
         return null;
+    }
+
+    @Override
+    public void delete(int id) {
+
     }
 
     @Override
@@ -21,7 +32,17 @@ public class JdbcMealRepositoryImpl implements MealRepository {
     }
 
     @Override
+    public Meal get(int id) {
+        return null;
+    }
+
+    @Override
     public Meal get(int id, int userId) {
+        return null;
+    }
+
+    @Override
+    public Collection<Meal> getAll() {
         return null;
     }
 
